@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/main.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav> <!--contenedor padre-->
+                <div>
+                    <a href="../index.html">
+                    <img src="../img/Logo.png" alt="Logo">
+                    </a>
+                </div>
+
+                <div class="menu">
+                    <a href="../index.html">Inicio</a>
+                    <a href="../pages/productos.html">Productos</a>
+                    <a href="../pages/nosotros.html">Nosotros</a>
+                    <a href="../pages/contacto.html">Contactanos</a>
+                    <a href="#">Carrito</a>
+                </div>          
+        </nav>
+    </header>
+    
+    <div class="fondo-form">
+        <form class="form">
+            <h2 class="form-title">Contáctanos</h2>
+            <h4 class="form-subtitle">Tienes alguna duda sobre nuestros títeres</h4>
+            <p class="form-paragraph">No dudes en escribirnos</p>
+
+            <div class="form-container">
+
+                <div class="form-group">
+                    <label for="name">Nombre</label>
+                    <input class="form-borde" type="text" id="name" placeholder="Escribe tu nombre">
+                    <span class="form-line"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="number">Número de contacto</label>
+                    <input class="form-borde" type="text" id="number" placeholder="Escribe tu número" >
+                    <span class="form-line"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="email" >Correo electrónico</label>
+                    <input class="form-borde" type="text" id="email" placeholder="Ecribe tu correo">
+                    <span class="form-line"></span>
+                </div>
+
+                <div class="form-group">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea class="form-borde" name="mensaje" id="mensaje" cols="30" rows="5" placeholder="Escribe tu mensaje"></textarea>
+                </div>
+
+                <input class="form-submit" type="submit"  value="Enviar mensaje ">
+            </div> 
+        </form>
+    </div> 
+</body>
+</html>

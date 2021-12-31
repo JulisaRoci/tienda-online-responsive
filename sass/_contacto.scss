@@ -1,0 +1,86 @@
+.fondo-form{
+    background-color: #e5e5f7;
+    opacity: 0.8;
+    background-image: radial-gradient(#444cf7 0.65px, #e5e5f7 0.65px);
+    background-size: 13px 13px;
+    background-position: 0 0, 10px 10px;
+    display: flex;
+    min-height: 100vh;
+
+    .form{
+        background-color: white;
+        margin: auto;
+        width: 400px;
+        
+        padding: 20px 30px;
+        border-radius: 18px;
+
+        .form-title{
+            text-align: center;
+        }
+        .form-subtitle{  
+            font-family: "Poppins";
+            font-size: 14px;
+        }
+        .form-paragraph{
+            font-family: "Poppins";
+        }
+        .form-container{
+            font-family: "IBM Plex Sans";
+
+            .form-group{
+                display: grid;
+                padding-top: 15px;
+
+                label{
+                    padding: 5px 0;
+                }
+
+                .form-borde{
+                    padding: 4px 8px;
+                }
+            }
+            
+            .form-submit{
+                background: #DE4F4F;
+                color: white;
+                border-radius: 20px;
+                border: 1px solid white;
+                padding: 15px 20px;
+                margin: 10px 0;
+            }
+        }
+    }
+}
+
+@media (max-width:320px){
+    .fondo-form{
+        .form{
+
+            width: 300px;
+            height: 550px;
+
+            .form-subtitle{  
+                font-size: 12px;
+                font-weight: 200;
+            }
+
+            .form-container{
+                .form-group{
+                    padding-top: 8px;
+    
+                    label{
+                        font-size: 12px;
+                        padding: 5px 0;
+                    }
+    
+                    .form-borde{
+                        padding: 4px 8px;
+                    }
+                }
+                
+            }
+        }
+
+    }
+}

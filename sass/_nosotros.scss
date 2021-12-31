@@ -1,0 +1,243 @@
+.nosotros{
+
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 20px 20px;
+
+    h1{
+        text-align: center;
+        font-size: 36px;
+    }
+    .contenido-nosotros{
+        width: 90%;
+
+        display: flex;
+
+        .text{
+
+           h2{
+               font-size: 20px;
+               margin-top: 40px;  
+           }
+
+           p{
+               padding: 5px 0;
+               line-height: 24px;
+           }
+        }
+    }
+}
+
+
+@media (max-width:1280px){
+    .nosotros{
+        background-color:rgb(204, 20, 164);
+    }
+    
+}
+
+@media (max-width:992px){
+    .nosotros{
+        background-color: rgb(20, 204, 149);
+
+
+        .contenido-nosotros{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+    
+            .text{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 0 20px;
+
+               h2{
+                   font-size: 20px;
+                   margin-top: 15px;
+               } 
+               
+               p{
+                   color: white;
+                   font-size: 16px;
+                   padding: 5px 0;
+                   line-height: 16px;
+               }
+            }
+
+            img{
+                padding: 10px 0;
+                width: 300px;
+            }
+        }
+    }
+    
+}
+
+@media (max-width:768px){
+    .nosotros{
+        background-color:rgb(167, 20, 204);
+
+        h1{
+            color: white;    
+        }
+
+        .contenido-nosotros{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+    
+            .text{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 0 20px;
+
+               h2{
+                   font-size: 20px;
+                   margin-top: 15px;
+               } 
+               
+               p{
+                   color: white;
+                   font-size: 16px;
+                   padding: 5px 0;
+                   line-height: 16px;
+               }
+            }
+
+            img{
+                padding: 10px 0;
+                width: 300px;
+            }
+        }
+    }
+    
+}
+
+@media (max-width:600px){
+
+    nav{
+        img{
+            width: 120px;
+            margin: 0 10px;
+        }
+    }
+    .menu{
+        padding: 0 10px;
+        a{
+            font-size: 14px;
+            padding: 0 5px;
+        }
+    }
+
+    .nosotros{
+        
+        background-color:rgb(204, 20, 158);
+
+        h1{
+            color: whitesmoke;
+            font-size: 25px;     
+        }
+
+        .contenido-nosotros{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+    
+            .text{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 0 20px;
+
+               h2{
+                   font-size: 20px;
+                   margin-top: 15px;
+               } 
+               
+               p{
+                   color: white;
+                   font-size: 14px;
+                   padding: 5px 0;
+                   line-height: 16px;
+               }
+            }
+
+            img{
+                padding: 10px 0;
+                width: 300px;
+            }
+        }
+    }
+}
+
+@media (max-width:480px){
+    .nosotros{
+        background-color:chartreuse;
+
+        h1{
+            font-size: 24px;     
+        }
+
+        .contenido-nosotros{
+
+            .text{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                padding: 0 20px;
+
+               h2{
+                   font-size: 20px;
+                   margin-top: 15px;
+               } 
+               
+               p{
+                   color: white;
+               }
+            }
+
+            img{
+                padding: 10px 0;
+                width: 300px;
+            }
+        }
+    }
+}
+
+@media (max-width:320px){
+    .nosotros{
+        background-color: blueviolet;
+        h1{
+            font-size: 24px;
+            color: white;
+        }
+
+        .contenido-nosotros{
+
+            .text{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+               h2{
+                   color: rgb(232, 250, 255);
+                   font-size: 20px;
+                   margin-top: 15px;
+                   
+               } 
+               p{
+                   color: rgb(216, 216, 216);
+                   font-size: 15px;
+                   padding: 5px 0;
+                   line-height: 20px;
+               }
+            }
+            img{
+                padding: 10px 0;
+                width: 200px;
+            }
+        }
+    }
+}
