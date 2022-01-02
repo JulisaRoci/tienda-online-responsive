@@ -329,54 +329,31 @@ button a {
   border-radius: 32px;
   color: white;
 }
-.productos .todoslostiteres {
-  width: 80%;
-  margin: 0 auto;
+.productos .nuestrostiteres {
+  width: 100%;
+  max-width: 1500px;
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
   justify-content: center;
+  margin: 0 auto;
 }
-.productos .todoslostiteres .column {
+.productos .nuestrostiteres .card {
+  width: 330px;
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 20px;
+  transition: all 0.25;
+}
+.productos .nuestrostiteres .card:hover {
   box-shadow: -1px 6px 10px 2px rgba(0, 0, 0, 0.2);
-  width: 20%;
+  transform: translateY(-15px);
 }
-.productos .todoslostiteres .column:hover {
-  box-shadow: -1px 6px 10px 2px rgba(0, 0, 0, 0.2);
-  transform: translateY(-3%);
-}
-.productos .todoslostiteres .column img {
+.productos .nuestrostiteres .card img {
   width: 100%;
 }
-.productos .todoslostiteres .column:nth-child(1) {
-  color: red;
-}
-.productos .todoslostiteres .column:nth-child(2) {
-  color: pink;
-}
-.productos .todoslostiteres .column:nth-child(3) {
-  color: royalblue;
-}
-.productos .todoslostiteres .column:nth-child(4) {
-  color: seagreen;
-}
-.productos .todoslostiteres .column:nth-child(5) {
-  color: #f8e113;
-}
-.productos .todoslostiteres .column:nth-child(6) {
-  color: orangered;
-}
-.productos .todoslostiteres .column:nth-child(7) {
-  color: #5fc25f;
-}
-.productos .todoslostiteres .column:nth-child(8) {
-  color: paleturquoise;
-}
-.productos .todoslostiteres .column h1 {
-  font-size: 18px;
-  line-height: 28px;
-  font-weight: 400;
-  overflow: hidden;
+.productos .nuestrostiteres .card h4 {
+  font-weight: 200;
+  padding-left: 20px;
 }
 
 @media (max-width: 1280px) {
@@ -462,61 +439,6 @@ button a {
   }
   .productos .todoslostiteres .column {
     width: 40%;
-  }
-}
-@media (max-width: 480px) {
-  nav img {
-    width: 120px;
-    margin: 0 10px;
-  }
-
-  .menu {
-    padding: 0 20px;
-  }
-  .menu a {
-    font-size: 10px;
-    color: white;
-    padding: 0 5px;
-  }
-
-  .productos {
-    background-color: chartreuse;
-  }
-  .productos h1 {
-    font-size: 20px;
-    padding: 8px;
-  }
-  .productos .text {
-    font-size: 12px;
-    line-height: 10px;
-  }
-  .productos .text a {
-    font-size: 10px;
-    padding: 9px;
-  }
-  .productos .todoslostiteres .column {
-    box-shadow: -1px 6px 10px 2px rgba(0, 0, 0, 0.2);
-    width: 40%;
-  }
-}
-@media (max-width: 320px) {
-  .productos {
-    background-color: blueviolet;
-  }
-  .productos h1 {
-    font-size: 20px;
-    padding: 8px;
-  }
-  .productos .text {
-    font-size: 10px;
-    line-height: 10px;
-  }
-  .productos .text a {
-    padding: 10px;
-  }
-  .productos .todoslostiteres .column {
-    box-shadow: -1px 6px 10px 2px rgba(0, 0, 0, 0.2);
-    width: 80%;
   }
 }
 .fondo-form {
